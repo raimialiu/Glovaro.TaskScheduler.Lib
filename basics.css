@@ -1,0 +1,41 @@
+@media (max-width:400px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+body {
+    margin: unset;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: "*";
+   
+}
+
+
+.top {
+    background-color: gray;
+    height: 25vh;
+    width: 100%;
+    
+}
+.left {
+    height: 100%;
+    width: 40%;
+    background-color: yellow;
+}
+.right {
+    height: 100%;
+    width: 60%;
+    background-color: teal;
+}
+
+.content {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+}
